@@ -15,7 +15,7 @@ $ yarn add express-mocked-responses
 ```typescript
 import express, { Application, Router, Request, Response } from 'express'
 
-import { SuccessResponse, ForbiddenException } from 'express-custom-responses1'
+import { SuccessResponse, ForbiddenException } from 'express-mocked-responses'
 
 const app: Application = express()
 const router = Router()
